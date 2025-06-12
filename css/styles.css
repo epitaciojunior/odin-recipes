@@ -5,29 +5,56 @@
 body {
     width: 800px;
     margin: 0 auto;
-    
+    background-color: #f6f5f3; /* suave, neutro */
 }
 
 h1 {
     text-align: center;
-    background-color: gainsboro;
+    background-color: #b2c9ab; /* verde suave */
+    color: #2d4739; /* verde escuro */
     padding: 10px;
+    border-radius: 50px
 }
 
 ul {
-    background-color: lightcoral;
+    background-color: #f7d9c4; /* bege claro */
     padding: 20px;
     display: inline-block;
+    border-radius: 8px;
 }
 
 li {
     list-style: none;
     padding: 3px;
     font-weight: bold;
-    color: white;
+    color: #2d4739; /* verde escuro */
+}
+
+.ingredients li {
+    list-style: square;
+    list-style-position: inside;
+}
+
+.steps li {
+    list-style: decimal;
+    list-style-position: inside;
+    font-weight: normal;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: #8c5e3c; /* marrom suave */
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #b2c9ab; /* verde suave */
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    width: 400px;
+    height: auto;
 }
